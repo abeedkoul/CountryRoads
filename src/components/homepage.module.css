@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: [l1] 1fr [l2] 1fr [l3] 1fr [l4] 1fr;
+    grid-template-rows: [r1] 1fr [r2] 1fr [r3] 1fr [r4] 1fr;
+    grid-template-areas: 
+    "header . header2 header3"
+    "main main main main"
+    "main main main main"
+    "footer footer footer footer";
+    gap:10px 15px;
+    /* background-color: green; */
+    width: 500px ;
+    height: 500px ;
+    /* justify-items:center; */
+    /* align-items: center; */
+}
+.itemA{
+    grid-area: header2;
+    justify-self: start;
+}
+.itemB{
+    grid-area: footer;
+    background-image: url(../../public/images/download.jpeg);
+}
+.itemC{
+    background-image: url(../../public/images/image.jpg);
+    grid-area: main;
+}

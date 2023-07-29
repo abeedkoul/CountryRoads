@@ -1,0 +1,181 @@
+.error{
+    background-color: green;
+    height: 300px;
+    width: 10000px;
+}
+.ans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    font-size: 50;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color:white;
+    border-style:double;
+    
+}
+.leftBox{
+    padding-left: 10%;
+    padding-top: 3%;
+}
+.rightBox{
+    padding-right: 10%;
+    padding-top: 3%;
+}
+.tweetBox{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 500px;
+    height: 600px;
+    position: relative;
+    background-color:white;
+    font-size: 50;
+    border-radius: 20px;
+    color: black;
+}
+.lastButtons{
+    color:darkgrey;
+    background-color:white;
+    width: 120px;
+    position: absolute;
+    height: 50px;
+    bottom:20px;
+    border-radius: 300px;
+    text-align: center;
+    left: 90px;
+    padding-top: 10px;
+    border-style: double;
+    border-width: 2px;
+    border-color: darkgrey;
+    font-weight: bold;
+}
+.lastButtons2{
+    color: white;
+    font-weight: bold;
+    background-color:#0a98f1;
+    width: 120px;
+    position: absolute;
+    height: 50px;
+    bottom:20px;
+    border-radius: 300px;
+    text-align: center;
+    right: 10px;
+    padding-top: 10px;
+}
+.tweetImage{
+    width: 500px;
+    height: 150px;
+    background-color: black;
+    background-image: url(../../public/images/image.jpg);
+    position:absolute;
+    /* border-radius: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    top: 0px;
+}
+.inline{
+    justify-content:space-evenly;
+    bottom: 0;
+    position: absolute;
+}
+.profilePic{
+    width: 80px;
+    height: 80px;
+    border-radius: 300px;
+    background-color: white;
+    top: 20%;
+    right: 80%;
+    background-image: url(../../public/images/download.jpeg);
+    background-position: center; 
+    /* margin-right: 75%;
+    margin-bottom: 30%; */
+    position: absolute;
+}
+.actualTweetBox{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.h5{
+    color:black ;
+    font-size: 25px;
+    padding-left: 2%;
+    padding-top: 1%;
+    font-weight: bold;
+}
+.h7{
+    color:grey ;
+    font-size: 14px;
+    padding-left: 2%;
+    padding-bottom: 10px;
+    position: absolute;
+}
+.content{
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    margin-left: 0%;
+    margin-top: 10%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+}
+.lol{
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+    background-color: white;
+    /* margin-block-start: 30%; */
+    margin-inline: 13%;
+    margin-inline-start: 1%;
+    display: inline-block;
+    /* float: middle; */
+    position: relative;
+    border-radius: 30px;
+    font-size: 12px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3px;
+    /* bottom: 0px; */
+    
+}
+.lolA{
+    width: 75px;
+    height: 30px;
+    background-color: 0a98f1;
+    color: slategray;
+    font-weight: bold;
+    /* margin-block-start: 30%; */
+    margin-inline: 13%;
+    margin-inline-start: 1%;
+    display: inline-block;
+    /* float: middle; */
+    position: relative;
+    border-radius: 30px;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3px;
+    /* bottom: 0px; */
+    
+}
+.textBox{
+    background-color: white;
+    width: 320px;
+    height: 175px;
+
+
+}
+
+.mummy{
+    display: flex;
+    justify-content: space-between;
+}

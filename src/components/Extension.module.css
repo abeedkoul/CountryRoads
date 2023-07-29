@@ -1,0 +1,15 @@
+.para {
+    font-size: 25px;
+    font-family: "Times New Roman";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
